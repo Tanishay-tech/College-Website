@@ -5,7 +5,7 @@
     $message = $_POST['message'];
 
 
-    $email_from = 'imfo@skillseekho.org';
+    $email_from = 'https://github.com/Tanishay-tech/College-Website';
 
     $email_subject = "New Form Submission";
     
