@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD College Website Design </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>OUR CERTIFICATIONS AND OFFICIAL ACCREDITATIONS</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/college image audi.avif">
+        <h2>Our Certifications and Official Accreditations</h2>
+        
+        <p>JD College of Engineering & Management (JDCOEM), Nagpur stands as a symbol of academic excellence, innovation, and quality education. The institution has earned the prestigious NAAC ‘A’ Grade Accreditation, a recognition that reflects its commitment to high standards in teaching, learning, research, infrastructure, and student development. This accreditation highlights the college’s continuous efforts to provide a dynamic educational environment that nurtures knowledge, creativity, and professional growth.</p>
+        <br>
+        <p>As an Autonomous Institution, JDCOEM enjoys the flexibility to design and update its curriculum in accordance with emerging industry trends and technological advancements. This autonomy enables the college to offer a modern, skill-oriented, and outcome-based education that prepares students to meet the challenges of the professional world. The institution is affiliated with Dr. Babasaheb Ambedkar Technological University, ensuring that academic programs maintain both quality and relevance.</p>
+        <br>
+        <p>The college is also approved by the All India Council for Technical Education (AICTE), New Delhi, the national statutory body responsible for regulating technical education in India. AICTE approval confirms that JDCOEM meets the required standards for infrastructure, faculty qualifications, academic processes, laboratories, and student support systems. Additionally, the institution is recognized by DTE Maharashtra, further strengthening its credibility and compliance with educational regulations.</p>
+        <br>
+        <p>With a legacy of quality education, advanced laboratories, modern learning facilities, experienced faculty members, and strong industry connections, JDCOEM continues to empower students with the knowledge, skills, and values needed for successful careers. These certifications and accreditations reflect the institution’s dedication to academic excellence, continuous improvement, innovation, and holistic student development, making it one of the trusted destinations for higher education in Central India.</p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>ACCREDITATIONS</h3>
+            <div>
+                <span>▪️NAAC 'A' Grade :<br>Accredited by the National Assessment and Accreditation Council for academic excellence.<br></span>
+            </div>
+            <div>
+                <span>▪️UGC Autonomy :<br>Holds autonomous status offering a flexible curriculum affiliated with Dr. Babasaheb Ambedkar Technological University (DBATU).<br></span>
+            </div>
+            <div>
+                <span>▪️AICTE Approval :<br>Approved by the All India Council for Technical Education (AICTE) and DTE Maharashtra.<br></span>
+            </div>
+            <div>
+                <span>▪️MSBTE Affiliation :<br>Polytechnic diploma courses are affiliated with the Maharashtra State Board of Technical Education.<br></span>
+            </div>
+            <div>
+                <span>▪️AISHE Certification :<br>Registered actively on the national education database (AISHE Code: C-18192).</span>
+            </div>
+            <div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>JD COLLEGE OF ENGNEERING AND MANAGEMENT, NAGPUR<br>Near Hanuman Temple, Borgaon Fata, Kalmeshwar Road, Nagpur-441501<br> General Enquiries: +91 90110 10038</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Tanisha Yadav</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

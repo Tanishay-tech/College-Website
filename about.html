@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD College Website Design </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>ABOUT US</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>OUR LEGACY :<br>IGNITING MINDS SINCE 2007</h1>     
+            <p>The educated are those who have learned how to learn—and how to change.” True education is the foundation of meaningful and positive transformation in society. Recognising this vision, the Goyal Group of Industries, guided by its philosophy of “Service to Customers”, entered the field of education with the establishment of JD College of Engineering & Management (JDCOEM) in 2007.<br><br>
+
+The Goyal Group is a well-established name in the foundry industry. Through its three companies, the Group has significantly contributed to the growth of the foundry sector, serving over 200 industrial clients across India and overseas with a strong focus on quality, reliability and innovation.<br><br>
+
+Today, JDCOEM stands as a benchmark for student-centric education, committed to delivering high-quality engineering and management programs. With a clear focus on developing future leaders, the institution equips students with the technical competence, professional skills, and ethical values required to succeed in a competitive global environment.<br><br>
+
+The academic framework at JDCOEM addresses both the intellectual and emotional development of students, nurturing responsible professionals and socially conscious citizens capable of contributing positively in all walks of life.<br><br>
+
+In its pursuit of academic excellence and progressive education, JDCOEM became the first institute in the Vidarbha region to be affiliated with Dr. Babasaheb Ambedkar Technological University (DBATU), Lonere, the Technological University of Maharashtra, from the academic session 2017–18.</p>
+            <a href="http://www.jdcoem.ac.in/" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about image2.jpeg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>JD COLLEGE OF ENGNEERING AND MANAGEMENT, NAGPUR<br>Near Hanuman Temple, Borgaon Fata, Kalmeshwar Road, Nagpur-441501<br> General Enquiries: +91 90110 10038</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Tanisha Yadav</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

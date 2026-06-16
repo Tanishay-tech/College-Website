@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD College Website Design </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>OUR COURSES</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>EXPLORE OUR PROGRAMS</h1>
+        <p>"Choose the perfect learning path to achieve your goals."</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>UNDERGRADUATE</h3>
+                <p>Computer Science Engineering | Artificial Intelligence | Data Science | Cyber Security | Civil | Mechanical | Electrical | Electronics & Telecommunication  | Information Technology<br> BBA | BCA</p>
+            </div>
+            <div class="course-col">
+                <h3>POSTGRADUATE</h3>
+                <p>Computer Science Engineering | Electronics | Civil | Electrical Power Systems<br>MCA | MBA</p>
+            </div>
+            <div class="course-col">
+                <h3>DIPLOMA</h3>
+                <p>Computer Science Engineering | Mechanical | Civil | Electronics & Telecommunication </p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>OUR FACILITIES</h1>
+        <p>"State-of-the-art facilities designed to enhance learning, innovation, and student success."</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/Library.avif">
+                    <h3>SWAMI VIVEKANAND LIBRARY</h3>
+                    <p>A library equipped with extensive academic resources, digital collections, and peaceful study spaces.Well stocked library with a collection of 12,583 books. </p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/lab.jpeg">
+                    <h3>COMPUTER LABS</h3>
+                    <p>Advanced computer labs equipped with the latest technology for hands-on learning.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.avif">
+                    <h3>CAFETERIA</h3>
+                    <p>A modern cafeteria serving fresh, hygienic, and nutritious meals in a comfortable environment.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>JD COLLEGE OF ENGNEERING AND MANAGEMENT, NAGPUR<br>Near Hanuman Temple, Borgaon Fata, Kalmeshwar Road, Nagpur-441501<br> General Enquiries: +91 90110 10038</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Tanisha Yadav</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
